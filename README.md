@@ -1,6 +1,6 @@
 # bmc_bioinf_2016_erbilgin
 ## Predicting Resource Depletion of Mixed Bacterial Cultures
-![alt text]('trp.tiff' "Tryptophan prediction and usage")
+![alt text](https://raw.githubusercontent.com/biorack/bmc_bioinf_2016_erbilgin/master/trp.tiff "Tryptophan prediction and usage")
 
 ### A workflow to use exometabolomics data collected over the growth curve of a bacterial species to predict how a co-culture of bacteria will deplete resources in a medium or environment
 ##### Authors: Onur Erbilgin and Ben Bowen, Lawrence Berkeley National Laboratory
