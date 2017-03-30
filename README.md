@@ -1,12 +1,12 @@
 # bmc_bioinf_2016_erbilgin
 ## Predicting Resource Depletion of Mixed Bacterial Cultures
-![alt text](https://raw.githubusercontent.com/biorack/bmc_bioinf_2016_erbilgin/master/trp.tiff "Tryptophan prediction and usage")
+![Trp](https://raw.githubusercontent.com/biorack/bmc_bioinf_2016_erbilgin/master/trp.png "Tryptophan prediction and usage")
 
 ### A workflow to use exometabolomics data collected over the growth curve of a bacterial species to predict how a co-culture of bacteria will deplete resources in a medium or environment
 ##### Authors: Onur Erbilgin and Ben Bowen, Lawrence Berkeley National Laboratory
 
 This workflow is described in the publication:
->Dynamic substrate preferences predict metabolic properties of a simple microbial consortium. (2016) Onur Erbilgin, Benjamin P. Bowen, Suzanne M. Kosina, Stefan Jenkins, Rebecca K. Lau, Trent R. Northen. BMC Bioinformatics, in review.
+>Dynamic substrate preferences predict metabolic properties of a simple microbial consortium. (2017) Onur Erbilgin, Benjamin P. Bowen, Suzanne M. Kosina, Stefan Jenkins, Rebecca K. Lau, Trent R. Northen. (2017) BMC Bioinformatics 18:57 [DOI: 10.1186/s12859-017-1478-2](http://dx.doi.org/10.1186/s12859-017-1478-2)
 
 
 ## Required Packages:
@@ -18,15 +18,15 @@ This workflow is described in the publication:
 
 ## Input Data:
 * Compound concentrations for each species, replicate, and timepoint
-  * Example file: `./data/20151130_OAM1_QuantResults_v2C.csv`
+  * Example file: `Data/20151130_OAM1_QuantResults_v2C.csv`
 * Biomass measurements for each species, replicate, and timepoint
-  * Example file: `./data/Data/20151014_3B10_9B05_L13_timecourse.csv`
+  * Example file: `Data/20151014_3B10_9B05_L13_timecourse.csv`
 * Growth rate (average and error) of each species on individual carbon sources
-  * Example file: `./data/singleresource_data.xlsx`
+  * Example file: `Data/singleresource_data.xlsx`
 * Starting molarity of each compound in the growth medium
-  * Example file: `./data/molarity.txt`
+  * Example file: `Data/molarity.txt`
 * Percent amino acid composition of the translated genome of each species
-  * Example file: `./data/percent_AA_composition_genome.xlsx`
+  * Example file: `Data/percent_AA_composition_genome.xlsx`
 * Experimental observations of metabolite usage of the co-culture, to compare predictions
   * Example file: averaged: `./data/20160328_Enigma_coculture_avg_v2.csv`
   * Example file: standard error: `./data/20160328_Enigma_coculture_stderr_v2.csv`
@@ -50,4 +50,4 @@ This workflow is described in the publication:
 1. Using metabolomics data collected on single-species growth (Notebooks 1 and 2), predict how a co-culture of the different species would deplete resources in the same medium
 
 ## License Information
-Coming soon
+* See LICENSE.txt and COPYRIGHT.txt
